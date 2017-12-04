@@ -1,0 +1,10 @@
+.header-container {
+    height: 100%;
+}
+.background {
+    background-image: url('./images/web-designWood.jpg');
+    overflow: hidden;
+    background-size:  cover;
+    height: 847px;
+    background-position: center;
+}

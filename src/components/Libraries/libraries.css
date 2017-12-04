@@ -1,0 +1,16 @@
+svg {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+.blue-svg {
+    fill:  #61dafb;
+}
+#languages {
+    background: #f2f3f4;
+    padding-top: 60px;
+}
+.animated {
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+}

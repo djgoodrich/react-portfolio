@@ -1,0 +1,21 @@
+.introduction-header {
+    position: absolute;
+    top: 240px;
+    left: 45%;
+    color: white;
+    margin-right: 40px;
+}
+.header-text {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+@media screen and (max-width: 700px) {
+    .introduction-header {
+        position: absolute;
+        top: 240px;
+        left: 30%;
+    }
+    .header-text {
+        font-size: 1.2rem;
+    }
+}
