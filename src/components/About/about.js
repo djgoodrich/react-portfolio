@@ -11,7 +11,7 @@ const About = () => {
       </h2>
       <div className="about-grid">
         <div className="box1">
-        <img src={problemsolver} className="icon-size" />
+        <img src={problemsolver} className="icon-size" alt="problem solver icon"/>
         <p className="text-center" id="about-paragraph">
           Hi, I'm David and I love building beautiful, dynamic, responsive
           websites. Since my very first computer (Apple IIe), I have loved
@@ -20,14 +20,14 @@ const About = () => {
         </p>
         </div>
         <div className="box2">
-        <img src={teamwork} className="icon-size" />
+        <img src={teamwork} className="icon-size" alt="teamwork"/>
         <p className="text-center" id="about-paragraph">
           I consider myself a great team player who is consistenly reliable, able to adapt quickly,
           contribute positively to the team, and can consider different points of view to accomplish a common goal.
         </p>
         </div>
         <div className="box3">
-        <img src={browserImg} className="icon-size" />
+        <img src={browserImg} className="icon-size" alt="computer icon" />
         <p className="text-center" id="about-paragraph">
           I am a quick analytical, learner who loves to solve complex problems to create
           amazing solutions.

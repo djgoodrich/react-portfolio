@@ -26,7 +26,7 @@ const Portfolio = () => {
         <div className="card-body">
           <h4 className="card-title">Lynx Train Scheduler</h4>
           <p className="card-text">
-          Built with Firebase, moment.js, bootstrap, jquery, and font-awesome, this app
+          Built with Firebase, moment.js, bootstrap, and jquery this app
           is a Demo that allow users to input a train schedule that automatically updates 
           the train schedule
           </p>

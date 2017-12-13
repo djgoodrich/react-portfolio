@@ -1,6 +1,6 @@
 import React from 'react';
 import './libraries.css';
-import { slideInLeft } from 'animate.css';
+
 
 const Libraries = () => {
 
