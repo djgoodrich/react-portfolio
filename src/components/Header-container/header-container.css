@@ -6,5 +6,6 @@
     overflow: hidden;
     background-size:  cover;
     height: 847px;
+    width: 100%;
     background-position: center;
 }
