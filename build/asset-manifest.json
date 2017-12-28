@@ -1,14 +1,16 @@
 {
-  "main.css": "static/css/main.fdf7818d.css",
-  "main.css.map": "static/css/main.fdf7818d.css.map",
-  "main.js": "static/js/main.063582d4.js",
-  "main.js.map": "static/js/main.063582d4.js.map",
+  "main.css": "static/css/main.d9bd6736.css",
+  "main.css.map": "static/css/main.d9bd6736.css.map",
+  "main.js": "static/js/main.957a72ee.js",
+  "main.js.map": "static/js/main.957a72ee.js.map",
   "static/media/Blog-review-pic.png": "static/media/Blog-review-pic.066c4567.png",
   "static/media/browser-4.svg": "static/media/browser-4.c472f390.svg",
   "static/media/gifsearch.png": "static/media/gifsearch.4daebb66.png",
   "static/media/hamburger.png": "static/media/hamburger.48c32c88.png",
+  "static/media/linkedin.png": "static/media/linkedin.589922e1.png",
   "static/media/lynxtrain.png": "static/media/lynxtrain.ae4ce07b.png",
   "static/media/man.svg": "static/media/man.b19a55a2.svg",
   "static/media/teamwork-1.svg": "static/media/teamwork-1.843711e9.svg",
+  "static/media/twitter.png": "static/media/twitter.11aaddbc.png",
   "static/media/web-designWood.jpg": "static/media/web-designWood.ba2c4378.jpg"
 }
