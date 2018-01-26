@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <HeaderContainer />
        <SocialMedia />
-      <About />
+      <About/>
       <Libraries />
       <Portfolio />
       <Footer />
