@@ -10,7 +10,3 @@ svg {
     background: #f2f3f4;
     padding-top: 60px;
 }
-.animated {
-    animation-delay: 10s;
-    animation-iteration-count: 1;
-}
