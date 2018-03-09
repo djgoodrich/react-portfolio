@@ -16,7 +16,7 @@ class App extends Component {
       <About/>
       <Libraries />
       <Portfolio />
-      <Footer />
+      <Footer email="djgoodrich15@gmail.com" />
       </div>
     );
   }

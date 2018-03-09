@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './footer.css';
 import Modalpopup from '../Modal/modal.js';
 
-const Footer = () => {
+class Footer extends Component {
+    render() {
     return (
     <div className="footer">
-        <h3 className="text-center">Feel free to email me at <a href="mailto=djgoodrich15@gmail.com">djgoodrich15@gmail.com</a><Modalpopup /></h3>
+        <h3 className="text-center">Feel free to email me at <a href={`mailto:${this.props.email}`}>djgoodrich15@gmail.com</a><Modalpopup /></h3>
     </div>
-    )
+    );
 }
-
+}
 export default Footer;

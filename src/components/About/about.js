@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import browserImg from "./images/browser-4.svg";
 import teamwork from "./images/teamwork-1.svg";
-import problemsolver from "./images/man.svg";
+import problemsolver from "./images/profilepicCircle.gif";
 import { Fade, Zoom } from 'react-reveal';
 
 const About = () => {
@@ -14,7 +14,19 @@ const About = () => {
       <div className="about-grid">
       <Zoom fraction={.7}>
       <Fade fraction={.7} duration={2000}>
-        <div className="box1">
+      <div className="box1">
+        <img src={teamwork} className="icon-size" alt="teamwork"/>
+        <p className="text-center about-paragraph">
+          I consider myself a great team player who is consistenly reliable, able to adapt quickly,
+          contribute positively to the team, and can consider different points of view to accomplish a common goal.
+        </p>
+        </div>
+        </Fade>
+        </Zoom>
+        <Zoom fraction={.7}>
+        <Fade fraction={.7} duration={2000}>
+        
+        <div className="box2">
         <img src={problemsolver} className="icon-size" alt="problem solver icon"/>
         <p className="text-center about-paragraph">
           Hi, I'm David and I love building beautiful, dynamic, responsive
@@ -27,22 +39,11 @@ const About = () => {
         </Zoom>
         <Zoom fraction={.7}>
         <Fade fraction={.7} duration={2000}>
-        <div className="box2">
-        <img src={teamwork} className="icon-size" alt="teamwork"/>
-        <p className="text-center about-paragraph">
-          I consider myself a great team player who is consistenly reliable, able to adapt quickly,
-          contribute positively to the team, and can consider different points of view to accomplish a common goal.
-        </p>
-        </div>
-        </Fade>
-        </Zoom>
-        <Zoom fraction={.7}>
-        <Fade fraction={.7} duration={2000}>
         <div className="box3">
         <img src={browserImg} className="icon-size" alt="computer icon" />
         <p className="text-center about-paragraph">
           I am a quick analytical, learner who loves to solve complex problems to create
-          amazing solutions.
+          amazing solutions.  I keep up with the always growing landscape in the development world.
         </p>
         </div>
         </Fade>

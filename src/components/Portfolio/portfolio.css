@@ -43,13 +43,10 @@
     padding-bottom: 40px;
 }
 .card-body {
-    transform: skewY(-4.2deg);
-    transform-origin:0 0;
     background-color: #ffffff;
 }
 .card-title, .card-text {
     margin: 20px;
-    transform: skewY(4.2deg);
 }
 @media screen and (max-width: 1024) {
     .portfolio-grid {
