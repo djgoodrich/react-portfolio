@@ -3,7 +3,7 @@ import "./portfolio.css";
 import Hamburger from "./images/hamburger.png";
 import BlogReview from "./images/Blog-review-pic.png";
 import LynxTrain from "./images/lynxtrain.png";
-import GifSearch from "./images/gifsearch.png";
+import TodoList from "./images/todolist.png";
 
 const Portfolio = () => {
   return (
@@ -43,11 +43,11 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="card">
-        <a href="https://djgoodrich.github.io/Gif-search/"><img className="card-img-top" src={GifSearch} alt="Gif Search" /></a>
+        <a href="https://djgoodrich.github.io/react-todo-localStorage"><img className="card-img-top" src={TodoList} alt="Todo List" /></a>
         <div className="card-body">
-          <h4 className="card-title">Gif-Search</h4>
+          <h4 className="card-title">React Todo List</h4>
           <p className="card-text">
-            Using the Giphy Api, Users can search for any Gif images with a keyword search.
+            Using the React Library to create a Todo List app that allows you to add and remove items to your list and be saved in your browser's local storage. Click on image for demo!
           </p>
         </div>
       </div>
