@@ -2,7 +2,7 @@
     height: 100%;
 }
 .background {
-    background-image: url('./images/web-designWood.jpg');
+    background-image: url('https://res.cloudinary.com/davidgoodrich-io/image/upload/v1521810928/web-designWood.jpg');
     overflow: hidden;
     background-size:  cover;
     height: 847px;

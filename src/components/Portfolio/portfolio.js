@@ -1,9 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import Hamburger from "./images/hamburger.png";
-import BlogReview from "./images/Blog-review-pic.png";
-import LynxTrain from "./images/lynxtrain.png";
-import TodoList from "./images/todolist.png";
 
 const Portfolio = () => {
   return (
@@ -11,7 +7,7 @@ const Portfolio = () => {
       <h2 id="heading">Portfolio</h2>
       <div className="portfolio-grid">
       <div className="card">
-        <a href="https://stark-hollows-20874.herokuapp.com/"><img className="card-img-top" src={BlogReview} alt="Blog Review"/></a>
+        <a href="https://stark-hollows-20874.herokuapp.com/"><img className="card-img-top" src='https://res.cloudinary.com/davidgoodrich-io/image/upload/v1521810244/Blog-review-pic.png' alt="Blog Review"/></a>
         <div className="card-body">
           <h4 className="card-title">Blog-Review</h4>
           <p className="card-text">
@@ -22,7 +18,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="card">
-        <a href="https://djgoodrich.github.io/CharlotteLynxDemo/"><img className="card-img-top" src={LynxTrain} alt="Lynx Train Schedule" /></a>
+        <a href="https://djgoodrich.github.io/CharlotteLynxDemo/"><img className="card-img-top" src='https://res.cloudinary.com/davidgoodrich-io/image/upload/v1521810247/lynxtrain.png' alt="Lynx Train Schedule" /></a>
         <div className="card-body">
           <h4 className="card-title">Lynx Train Scheduler</h4>
           <p className="card-text">
@@ -33,7 +29,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="card">
-        <a href="https://github.com/djgoodrich/nom-nom-burger"><img className="card-img-top" src={Hamburger} alt="Devour Da Burger"/></a>
+        <a href="https://github.com/djgoodrich/nom-nom-burger"><img className="card-img-top" src='https://res.cloudinary.com/davidgoodrich-io/image/upload/v1521810251/hamburger.png' alt="Devour Da Burger"/></a>
         <div className="card-body">
           <h4 className="card-title">Eat-Da-Burger</h4>
           <p className="card-text">
@@ -43,7 +39,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="card">
-        <a href="https://djgoodrich.github.io/react-todo-localStorage"><img className="card-img-top" src={TodoList} alt="Todo List" /></a>
+        <a href="https://djgoodrich.github.io/react-todo-localStorage"><img className="card-img-top" src='https://res.cloudinary.com/davidgoodrich-io/image/upload/v1521810593/Screen_Shot_2018-03-21_at_10.13.16_AM.png' alt="Todo List" /></a>
         <div className="card-body">
           <h4 className="card-title">React Todo List</h4>
           <p className="card-text">

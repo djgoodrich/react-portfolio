@@ -57,6 +57,7 @@ class Modalpopup extends React.Component {
           <button className="btn-close-modal" onClick={this.closeModal}>
             X
           </button>
+         
           <h2 className="modal__title">Feel free to Get in Touch</h2>
           <p className="modal__text">
             If you are a business that is seeking a web presence or an employer
